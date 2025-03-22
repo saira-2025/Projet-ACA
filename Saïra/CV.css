@@ -1,0 +1,103 @@
+body{ 
+ margin: 0; 
+ border: 6px solid bisque;
+}
+
+ul{
+    list-style-type: none;
+    background-color: bisque;
+    margin: 0;
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+ul li{
+    display:inline-block;
+    padding:9px 98px;
+}
+
+a:hover{
+    background-color:white;
+    padding: 5px;
+}
+
+div {
+
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 30px;
+}
+
+div img{
+    width: 15% ;
+    border-radius: 80%;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3{
+    text-align: center
+}
+
+.principal{
+    background-color: bisque;
+    padding-bottom:  25px;
+    text-align: justify;
+}
+
+#fmt{
+    margin-top: 35px;
+}
+
+.parent1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu{
+    width: 25%;
+    min-width: 300px;
+    text-align: justify; 
+}
+
+.parent2{
+    background-color: bisque;
+    padding: 10px 10px;
+}
+
+.experience{
+    list-style-type: none;
+    display: flex;
+}
+
+.experience li{
+    color: black;
+    text-align: justify;
+    
+}
+
+#cont{
+    margin-top: 25px;
+}
+
+.formul{
+    display: flex;
+    
+    margin-bottom: 20px;
+}
+
+fieldset{  
+    background-color: bisque; 
+}
+
+#fin{
+    background-color: bisque;
+    padding: 15px;
+}
+
